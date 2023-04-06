@@ -1,0 +1,527 @@
+*{
+    padding: 2px;
+    margin: 1px;
+    box-sizing: border-box;
+    font-family: monospace ;
+    background-color: rgb(99, 96, 96);
+}
+
+/* title */
+.title {
+    color: white;
+    background-color: rgb(126, 36, 36);
+    display: block;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+.halo {
+    border-radius: 6px;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.34);
+    -webkit-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.34);
+    -moz-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.34);
+    border-radius: 6px;
+    background-color: white;
+}
+
+/* header */
+.list {
+    background-color: rgb(126, 36, 36);
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    margin:auto;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.back {
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 6px;
+    box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.34);
+    -webkit-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.34);
+    -moz-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.34);
+    border-radius: 6px;
+    background-color: white;
+}
+
+.menu-triangle {
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    color: black;
+    list-style: none;
+}
+
+.menu-triangle li{
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.menu-triangle a{
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.menu-parallelogram {
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    color: black;
+    list-style: none;
+}
+
+.menu-parallelogram li{
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.menu-parallelogram a{
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+/* main page */
+/* triangle area */
+.triangle-menu {
+    text-align: center;
+    background-color:rgb(126, 36, 36);
+    color: white;
+    border: 1px solid black;
+    border-radius: 6px;    
+}
+
+.triangle-area-card {
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.34);
+    -webkit-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.34);
+    -moz-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.34);
+    border-radius: 6px;
+    background-color: white;
+}
+
+.triangle-area {
+    text-align: center;
+    background-color:white;
+    border-radius: 6px;
+    color: black;
+    border: 1.3px solid black;
+    border-radius: 6px;
+    width: 200px;
+    margin: auto;
+}
+
+.triangle-area-pic {
+    width: 300px;
+    display: block;
+    margin: auto;
+    background-color: white;
+}
+
+.triangle-area-formula {
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.triangle-area-formula p {
+    background-color: white;
+}
+
+.triangle-area-formula-desc {
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    border: 1.3px solid black;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.triangle-area-formula-desc p {
+    background-color: white;
+}
+
+.form-hitung-triangle-area {
+    background-color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.form-hitung-triangle-area p{
+    background-color: white;
+}
+
+.form-hitung-triangle-area h2{
+    background-color: white;
+    border: 1.3px solid black;
+    border-radius: 6px;
+    width: 250px;
+    margin: auto;
+}
+
+#form-triangle-area {
+    background-color: white;
+}
+
+#form-triangle-area label{
+    background-color: white;
+}
+
+.form-hitung-triangle-area form{
+    background-color: white;
+    border: 1.3px solid black;
+    border-radius: 6px;
+    width: 250px;
+    margin: auto;
+    font-weight: bold;
+}
+
+.form-hitung-triangle-area input{
+    background-color: white;
+}
+
+.form-hitung-triangle-area button{
+    background-color: white;
+    margin: auto;
+}
+
+/* triangle perimeter */
+.triangle-menu {
+    text-align: center;
+    background-color:rgb(126, 36, 36);
+    color: white;
+    border: 1px solid black;
+    border-radius: 6px;    
+}
+
+.triangle-perimeter-card {
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.34);
+    -webkit-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.34);
+    -moz-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.34);
+    border-radius: 6px;
+    background-color: white;
+}
+
+.triangle-perimeter {
+    text-align: center;
+    background-color:white;
+    border-radius: 6px;
+    color: black;
+    border: 1.3px solid black;
+    border-radius: 6px;
+    width: 200px;
+    margin: auto;
+}
+
+.triangle-perimeter-pic {
+    width: 300px;
+    display: block;
+    margin: auto;
+    background-color: white;
+}
+
+.triangle-perimeter-formula {
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.triangle-perimeter-formula p {
+    background-color: white;
+}
+
+.triangle-perimeter-formula-desc {
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    border: 1.3px solid black;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.triangle-perimeter-formula-desc p {
+    background-color: white;
+}
+
+.form-hitung-triangle-perimeter {
+    background-color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.form-hitung-triangle-perimeter p{
+    background-color: white;
+}
+
+.form-hitung-triangle-perimeter h2{
+    background-color: white;
+    border: 1.3px solid black;
+    border-radius: 6px;
+    width: 250px;
+    margin: auto;
+}
+
+#form-triangle-perimeter {
+    background-color: white;
+}
+
+#form-triangle-perimeter label{
+    background-color: white;
+}
+
+
+.form-hitung-triangle-perimeter form{
+    background-color: white;
+    border: 1.3px solid black;
+    border-radius: 6px;
+    width: 250px;
+    margin: auto;
+    font-weight: bold;
+}
+
+.form-hitung-triangle-perimeter input{
+    background-color: white;
+}
+
+.form-hitung-triangle-perimeter button{
+    background-color: white;
+    margin: auto;
+}
+
+/* parallelogram area */
+.parallelogram-menu {
+    text-align: center;
+    background-color:rgb(126, 36, 36);
+    color: white;
+    border: 1px solid black;
+    border-radius: 6px;    
+}
+
+.parallelogram-area-card {
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.34);
+    -webkit-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.34);
+    -moz-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.34);
+    border-radius: 6px;
+    background-color: white;
+}
+
+.parallelogram-area {
+    text-align: center;
+    background-color:white;
+    border-radius: 6px;
+    color: black;
+    border: 1.3px solid black;
+    border-radius: 6px;
+    width: 200px;
+    margin: auto;
+}
+
+.parallelogram-area-pic {
+    width: 300px;
+    display: block;
+    margin: auto;
+    background-color: white;
+}
+
+.parallelogram-area-formula {
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.parallelogram-area-formula p {
+    background-color: white;
+}
+
+.parallelogram-area-formula-desc {
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    border: 1.3px solid black;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.parallelogram-area-formula-desc p {
+    background-color: white;
+}
+
+.form-hitung-parallelogram-area {
+    background-color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.form-hitung-parallelogram-area p{
+    background-color: white;
+}
+
+.form-hitung-parallelogram-area h2{
+    background-color: white;
+    border: 1.3px solid black;
+    border-radius: 6px;
+    width: 250px;
+    margin: auto;
+}
+
+#form-parallelogram-area {
+    background-color: white;
+}
+
+#form-parallelogram-area label{
+    background-color: white;
+}
+
+.form-hitung-parallelogram-area form{
+    background-color: white;
+    border: 1.3px solid black;
+    border-radius: 6px;
+    width: 250px;
+    margin: auto;
+    font-weight: bold;
+}
+
+.form-hitung-parallelogram-area input{
+    background-color: white;
+}
+
+.form-hitung-parallelogram-area button{
+    background-color: white;
+    margin: auto;
+}
+
+/* parallelogram perimeter */
+.parallelogram-menu {
+    text-align: center;
+    background-color:rgb(126, 36, 36);
+    color: white;
+    border: 1px solid black;
+    border-radius: 6px;    
+}
+
+.parallelogram-perimeter-card {
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.34);
+    -webkit-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.34);
+    -moz-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.34);
+    border-radius: 6px;
+    background-color: white;
+}
+
+.parallelogram-perimeter {
+    text-align: center;
+    background-color:white;
+    border-radius: 6px;
+    color: black;
+    border: 1.3px solid black;
+    border-radius: 6px;
+    width: 200px;
+    margin: auto;
+}
+
+.parallelogram-perimeter-pic {
+    width: 300px;
+    display: block;
+    margin: auto;
+    background-color: white;
+}
+
+.parallelogram-perimeter-formula {
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.parallelogram-perimeter-formula p {
+    background-color: white;
+}
+
+.parallelogram-perimeter-formula-desc {
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    border: 1.3px solid black;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.parallelogram-perimeter-formula-desc p {
+    background-color: white;
+}
+
+.form-hitung-parallelogram-perimeter {
+    background-color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.form-hitung-parallelogram-perimeter p{
+    background-color: white;
+}
+
+.form-hitung-parallelogram-perimeter h2{
+    background-color: white;
+    border: 1.3px solid black;
+    border-radius: 6px;
+    width: 250px;
+    margin: auto;
+}
+
+#form-parallelogram-perimeter {
+    background-color: white;
+}
+
+#form-parallelogram-perimeter label{
+    background-color: white;
+}
+
+
+.form-hitung-parallelogram-perimeter form{
+    background-color: white;
+    border: 1.3px solid black;
+    border-radius: 6px;
+    width: 250px;
+    margin: auto;
+    font-weight: bold;
+}
+
+.form-hitung-parallelogram-perimeter input{
+    background-color: white;
+}
+
+.form-hitung-parallelogram-perimeter button{
+    background-color: white;
+    margin: auto;
+}
